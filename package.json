@@ -1,0 +1,54 @@
+{
+  "name": "react-web-structure-aside",
+  "version": "0.1.14",
+  "description": "A header template that can be add in a web application or web site.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^16.8.6"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-react": "^7.0.0",
+    "@reach/router": "^1.2.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "file-loader": "^4.0.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "style-loader": "^0.23.1",
+    "svg-inline-loader": "^0.8.0",
+    "webpack": "^4.35.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "keywords": [
+    "React",
+    "React.js",
+    "Web Structure",
+    "Header",
+    "Web Header",
+    "Web Component"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlfaIrawan/react-web-structure-header/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AlfaIrawan/react-web-structure-header.git"
+  },
+  "private": true,
+  "author": {
+    "name": "Alfa Irawan",
+    "email": "alfa.irawan@outlook.com"
+  },
+  "devDependencies": {
+    "webpack-cli": "^3.3.5"
+  }
+}
